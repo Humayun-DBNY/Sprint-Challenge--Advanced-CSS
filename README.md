@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive websites start using media queries. We'll have a general type of design for desktop, tablet, and mobile. We're still hard coding in pixels for widths and breakpoints. Using separate styles sheets for all device types. 
+
+Responsive websites have everything in Adaptive style but we only use one shared CSS stylesheet. It's th industry standard. Advantage is things load faster on the browser. We can be flexible and address all screen sizes. It takes longer to build and test, which can be time consuming and costly.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first is the idea of designing and building an experience from the mobile user and scales up in terms of content and user interface. So we go from mobile to tablet to desktop. Desktop first is the idea of designing a full fledged experience for the desktop first and scale down as the viewport scales down. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+font-size: 62.5% — This will help us set up sizing in base 10 than 16, it's simpler math.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Instead of writing vanilla CSS code by hand (which can be very tedious and time consuming), we are using a preprocessor like LESS that compiles (translates) our code and outputs that into vanilla CSS. Basically, it does a lot of heavy lifting for us by using more straightforward and powerful syntax. It's like a cheat code. 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Still adjusting to the new preprocessing workflow at the moment but I like it alot. It's so much more easier and yet powerful compared to vanilla css. I really like thinking about modular components of everything so they can be reused. Parametric mixins are giving be trouble at the moment. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
