@@ -263,3 +263,8 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+@media (max-width 500px) {
+  img .sky {
+    display: none;
+  }
+}
